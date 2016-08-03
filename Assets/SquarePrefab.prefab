@@ -12,6 +12,7 @@ GameObject:
   - 61: {fileID: 6170922}
   - 114: {fileID: 11453690}
   - 82: {fileID: 8223496}
+  - 111: {fileID: 11175182}
   m_Layer: 0
   m_Name: SquarePrefab
   m_TagString: Untagged
@@ -119,6 +120,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!111 &11175182
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111680}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: b16e31aafe99d2f41ba9ea43f1bdcd7d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b16e31aafe99d2f41ba9ea43f1bdcd7d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11453690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valuePrefab: {fileID: 11414774, guid: 82f73f38e0d315c40bc32999b960d326, type: 2}
-  valueFont: {fileID: 12800000, guid: e15ea9ccb2f00754f8b8e511594101dd, type: 3}
+  valueFont: {fileID: 12800000, guid: f92ee7253d0e02842a4d0297a18144e2, type: 3}
   selectedSprite: {fileID: 21300000, guid: 2791ac9f6fbeecb4d9518858647033c1, type: 3}
 --- !u!212 &21200220
 SpriteRenderer:

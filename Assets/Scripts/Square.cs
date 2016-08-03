@@ -50,8 +50,9 @@ public class Square : MonoBehaviour {
 
     void Update()
     {
-        if (!gameController.GetGameOver())
+        if (!gameController.GetGameOver() && !gameController.GetGameWin() && !gameController.GetConditionWait())
         {
+            valueText.text = value.ToString();
             if (gameController.GetCurSignIndex() != sign)
             {
                 sign = gameController.GetCurSignIndex();

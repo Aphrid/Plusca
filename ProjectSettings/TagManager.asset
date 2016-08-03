@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Game Over Text
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Title Decoration
+    uniqueID: 2671979681
+    locked: 0
+  - name: Dark Divisor
+    uniqueID: 2131573099
     locked: 0
